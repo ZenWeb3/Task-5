@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- FONT -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Travelify || Home</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light position-sticky top-0"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/Logo.png" class="logo" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./destination.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <a href="./contact.html" class="btn btn-primary ms-lg-3">Book Now</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- //NAVBAR -->
+
+    <!-- HERO -->
+
+    <div
+      class="hero d-flex vh-100 align-items-center"
+      style="
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url('./images/hero.jpg');
+        background-position: center;
+        background-attachment: fixed;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center">
+            <h1 class="display-4 text-light">
+              Explore Your Wanderlust with Travelify
+            </h1>
+            <p class="text-light my-4">
+              Embark on a journey of discovery with Travelify. From serene
+              beaches to bustling cities, our curated destinations await your
+              exploration. Discover insider tips, breathtaking landscapes, and
+              unforgettable experiences. Start your adventure today!
+            </p>
+            <a href="./destination.html" class="btn btn-primary ">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- //HERO -->
+
+    <!-- DESTINATION -->
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row my-4">
+          <div class="col-md-8 text-center mx-auto">
+            <h2 class="display-4">Destinations</h2>
+            <p class="">
+              Discover our handpicked selection of exclusive destinations for
+              unforgettable journeys and extraordinary travel experiences
+              worldwide.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail shadow-sm">
+              <img
+                src="./images/destination5.jpg"
+                alt="Lights"
+                class="card-box"
+              />
+              <div class="caption">
+                <p class="p-2">
+                  Lorem ipsum donec id elit non mi porta gravida at eget metus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail shadow-sm">
+              <img
+                src="./images/destination2.jpg"
+                alt="Lights"
+                class="card-box"
+              />
+              <div class="caption">
+                <p class="p-2">
+                  Lorem ipsum donec id elit non mi porta gravida at eget metus.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="thumbnail shadow-sm">
+              <img
+                src="./images/destination3.jpg"
+                alt="Lights"
+                class="card-box"
+                class="img-fluid"
+              />
+              <div class="caption">
+                <p class="p-2">
+                  Lorem ipsum donec id elit non mi porta gravida at eget metus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 d-flex justify-content-center">
+          <!-- Button aligned to the center -->
+          <a href="./destination.html" class="btn btn-primary">Explore More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- //DESTINATION -->
+
+    <!-- CONTACT US -->
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h1 class="text-center py-4">Contact Us</h1>
+            <form id="contact_form" name="contact_form" method="post">
+              <div class="mb-4 row">
+                <div class="col-sm-12 col-md mb-3 mb-md-0">
+                  <label for="first_name " class="py-2">First Name</label>
+                  <input
+                    type="text"
+                    required
+                    maxlength="50"
+                    class="form-control"
+                    id="first_name"
+                    name="first_name"
+                  />
+                </div>
+                <div class="col-sm-12 col-md mb-3 mb-md-0">
+                  <label for="last_name" class="py-2">Last Name</label>
+                  <input
+                    type="text"
+                    required
+                    maxlength="50"
+                    class="form-control"
+                    id="last_name"
+                    name="last_name"
+                  />
+                </div>
+              </div>
+              <div class="mb-4 row">
+                <div class="col-sm-12 col-md mb-3 mb-md-0">
+                  <label for="email_addr" class="py-2">Email address</label>
+                  <input
+                    type="email"
+                    required
+                    maxlength="50"
+                    class="form-control"
+                    id="email_addr"
+                    name="email"
+                  />
+                </div>
+                <div class="col-sm-12 col-md mb-3 mb-md-0">
+                  <label for="phone_input" class="py-2">Phone</label>
+                  <input
+                    type="tel"
+                    required
+                    maxlength="50"
+                    class="form-control"
+                    id="phone_input"
+                    name="Phone"
+                  />
+                </div>
+              </div>
+              <div class="mb-4">
+                <label for="message" class="py-2">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-primary btn-lg">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- //CONTACT US -->
+
+    <!-- FOOTER -->
+
+    <div class="container-fluid mt-5 footer p-0">
+      <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+          <section class="">
+            <form action="">
+              <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+
+                <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                    <input
+                      type="email"
+                      id="Travelify"
+                      class="form-control"
+                      placeholder="name@example.com"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+
+        <div
+          class="text-center p-3 bg-dark"
+        >
+          © 2024 Copyright:
+          <a class="text-white" href="#">Travelify.com</a>
+        </div>
+      </footer>
+    </div>
+    <!-- //FOOTER-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+
+*{
+    box-sizing: border-box;
+    font-family: sora;
+}
+
+.card-box{
+    width: 100%;
+}
